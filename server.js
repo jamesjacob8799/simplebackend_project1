@@ -23,6 +23,10 @@ mongoose.connect('mongodb+srv://jacob:jacob@mybd.mt95k.mongodb.net/?retryWrites=
 
 app.use('/users',userroutes);
 
+app.get('/',(req,res)=>{
+    res.send("Welcome to backend ")
+})
+
 // Start the server
 app.listen(PORT, () => {
     console.log('Welcome ..., Your server is running on PORT ${PORT}');
