@@ -24,7 +24,7 @@ mongoose.connect('mongodb+srv://jacob:jacob@mybd.mt95k.mongodb.net/?retryWrites=
 app.use('/users',userroutes);
 
 app.get('/',(req,res)=>{
-    res.send("Welcome to backend ")
+    res.send("Welcome to backend first")
 })
 
 // Start the server
