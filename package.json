@@ -1,0 +1,21 @@
+{
+  "name": "nodejsbasic",
+  "version": "1.0.0",
+  "description": "A simple noodejs project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "james",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "install": "^0.13.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.2"
+  },
+  "keywords": [],
+  "devDependencies": {}
+}
