@@ -24,7 +24,7 @@ mongoose.connect('mongodb+srv://jacob:jacob@mybd.mt95k.mongodb.net/?retryWrites=
 app.use('/users',userroutes);
 
 app.get('/',(req,res)=>{
-    res.send("Welcome to james jacob  backend session")
+    res.send("Welcome to james backend session")
 })
 
 // Start the server
